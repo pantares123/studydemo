@@ -1,0 +1,10 @@
+package com.zch.graduationdesign.mapper;
+
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.zch.graduationdesign.entity.Recordnum;
+import com.zch.graduationdesign.entity.User;
+import org.apache.ibatis.annotations.Mapper;
+
+@Mapper
+public interface RecordnumMapper extends BaseMapper<Recordnum> {
+}
